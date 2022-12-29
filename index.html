@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/magnific-popup.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Форма оплаты</title>
+</head>
+
+<body>
+    <div class="popup white-popup mfp-hide .mfp-bg" id="popup">
+        <h1>Форма оплаты</h1>
+        <form class="popup__form" id="formPay">
+            <div class="popup__form__wrapperInput">
+                <label>Имя</label>
+                <input name="name" type="text">
+            </div>
+
+            <div class="popup__form__wrapperInput">
+                <label>Фамилия</label>
+                <input name="family" type="text">
+            </div>
+
+            <div class="popup__form__wrapperInput">
+                <label>Телефон</label>
+                <input name="phone" type="text">
+            </div>
+
+            <div class="popup__form__wrapperInput">
+                <label>Email</label>
+                <input name="email" type="text">
+            </div>
+
+            <div class="popup__form__wrapperSubmit">
+                <input type="submit" value="Готово" id="send">
+            </div>
+        </form>
+
+    </div>
+    <main class="main">
+        <h1 class="main__title"> Форма оплаты </h1>
+        <div class="main__body">
+            <a class="main__btn" href="#popup"> Оплатить</a>
+            <p> Нажмите на кнопку оплаты!</p>
+        </div>
+    </main>
+    <script src="vendor/jquery-3.6.3.min.js"></script>
+    <script src="vendor/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/jquery.validate.min.js"></script>
+    <script src="main.js"></script>'
+</body>
+
+</html>
